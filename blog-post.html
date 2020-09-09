@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Bootstrap 4 Blog Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Plugin CSS -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css"> -->
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-8.css">
+    
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Fan Fu</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/Fan_head.jpeg" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Fan Fu and I'm a software engineer/AI researcher. <br>My interest is Computer Vision, Natural Language Process, Vision and Language, Web Technology.<br></div><!--//bio-->
+					<div class="bio mb-3">
+						<span style="font-weight: bold;">Email:</span> hellofufan@gmail.com<br>
+						<span style="font-weight: bold;">Address:</span> Bow, London, UK<br>
+						<span style="font-weight: bold;">Telephone:</span> +447561562115<br>
+					</div>
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="https://www.facebook.com/fan.fu.10297701"><i class="fab fa-facebook-square fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/fan-fu-0a796518a/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/HeartFu"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Research/Projects</a>
+					</li>
+					<!-- <li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li> -->
+				</ul>
+				
+				<!-- <div class="my-2 my-md-3">
+				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
+				</div> -->
+			</div>
+		</nav>
+    </header>
+    
+    
+    <div class="main-wrapper">
+	    
+	    <section class="overview-section blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+				<h2 class="section-title font-weight-bold mb-5">Research Experience</h2>
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/relation_ICG.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Image Caption Generation based on Relationship between Objects</h3>
+						    <div class="meta mb-1"><span class="date">Apr.2020 ~ May.2020 & Sep.2020 ~ Today</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This is a research for my master thesis at City, University of London.</li>
+									<li>Exploring the image caption generation framework based on visual relationship.</li>
+									<li>Choosing the Object Detection as Encoder and adding the relation module to improve the performance.</li>
+									<li>Choosing the LSTM with attention as Decoder and researching how to combine the relationship features from Encoder.</li>
+									<!-- <li>This is a research for my master thesis at City, University of London.</li> -->
+								</ul>
+							</div>
+						</div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/auair.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Object Detection on Unmanned aerial vehicles(UAVs) dataset</h3>
+						    <div class="meta mb-1"><span class="date">Mar.2020 ~ May.2020</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This is a study on Object Detection on Unmanned aerial vehicles(UAVs) Dataset.</li>
+									<li>Compared between different UAVs dataset and chose AU-AIR dataset.</li>
+									<li>Analyzed the image features and researched traditional Object Detection Framework.</li>
+									<li>Developed the Faster-RCNN model which used on UAVs dataset.</li>
+									<li>Optimized the performance by RoI Align instead of RoI pooling in Faster-RCNN.</li>
+									<li>Adding the relation module into Faster-RCNN for improving accuracy.</li>
+								</ul>
+							</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/pneumonia.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Pneumonia Classification by Artificial Intelligence</h3>
+						    <div class="meta mb-1"><span class="date">Nov.2019 – Jan.2020</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This was a task from Kaggle which used AI technology to classify the pneumonia.</li>
+									<li>Used Grey Histogram and Convolutional Neural Network to extract the image features.</li>
+									<li>Researched and compared many frameworks, finally chose Random Forest and Convolutional Neural Network.</li>
+									<li>Developed the Random Forest model and Convolutional Neural Network.</li>
+									<li>Analyzed the performance between two features from Grey Histogram and CNN on Random Forest model.</li>
+									<li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li>
+								</ul>
+							</div>
+						</div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/microservices.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Microservice Architecture</h3>
+						    <div class="meta mb-1"><span class="date">Nov.2017 – Mar.2018</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This is an architecture research of Microservice for technology transformation. </li>
+									<li>Led a five-person team to do the research of Microservice architecture.</li>
+									<li>Summarized the features of Microservice and developed methods following AWS.</li>
+									<li>Developed a demo of Network Unit KPI monitor projects.</li>
+									<li>Developed a framework of Microservice on current system. </li>
+									<!-- <li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li> -->
+								</ul>
+							</div>
+						</div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/security.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Network Security</h3>
+						    <div class="meta mb-1"><span class="date">Jan.2017 – Apr.2018</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This is a network security research which let system passed the security checking of Huawei. </li>
+									<li>Researched some papers and blogs to learn how to detect the security breach.</li>
+									<li>Summarized the security developing rules and modification method based on network security.</li>
+									<li>Led a five-person team to modify the system based on the security developing rules.</li>
+									<li>Assist other teams to finish the network security checking. </li>
+									<!-- <li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li> -->
+								</ul>
+							</div>
+						</div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			</div>
+		</section>
+		
+		<section class="overview-section blog-list theme-bg-light px-3 py-5 p-md-5">
+		    <div class="container">
+			    <h2 class="section-title font-weight-bold mb-5">Project Experience</h2>
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/image_caption.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Image Caption Generation</h3>
+						    <div class="meta mb-1"><span class="date">Apr.2020 ~ May.2020</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <div class="intro">It was a coursework of Natural Language Processing. In this project, I used the Flickr 8K dataset to train the Image Caption Generation model.  For model, I developed the normal framework from “show and tell” paper which used the CNN as encoder and LSTM as decoder. Then I used the BLEU to evaluate this model and got good result. Finally, I added the attention module from “show, attend and tell” paper into the model and evaluated the result. From this experiment, it gave me a preliminary knowledge of NLP and the intersection of CV and NLP.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/ck+.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">CK+ Emotion Classification</h3>
+						    <div class="meta mb-1"><span class="date">Dec.2019 – Jan.2020</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <div class="intro">It was an emotion classification project. In this project, the CK+ dataset is used to train the neural network. For understanding the neural network and loss function, I implemented the fully connected layer and cross-entropy/MSE loss function with SoftMax / ReLu activation function by myself. Besides, I also add the dropout between the hidden layer and output layer. Besides, I derived the formula which implemented the forward and backward. In this project, I got the preliminary application and knowledge of Neural Network and Computer Vision.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/fota.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Fota Trading System</h3>
+						    <div class="meta mb-1"><span class="date">Jul.2018 – Sep.2018</span><span class="time">Fortuna</span><span class="comment">Hangzhou, China</span></div>
+						    <div class="intro">This was a trading system of digital currency which contained option trading. It contained real-time information of many digital currency, the number of trading, digital currency translation and so on. As the main front-end developer, I mainly focused on real-time price of digital currency, trading caculation, login and register and so on. Besides, I used ReactJS, HTML, SCSS to build the components which could be used for other systems.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/wallet.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Digital Wallet</h3>
+						    <div class="meta mb-1"><span class="date">Jun.2018 – Jul.2018</span><span class="time">Fortuna</span><span class="comment">Hangzhou, China</span></div>
+						    <div class="intro">This was a online wallet project of digital currency. It is built on Fotuna published mainnet. It contained digital currency translation, digital currency bank, agent module, login and register module and so on. As the front-end leader, I led four-person team to finish the components selection, website development, interface debug and testing.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/bbs.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Fortuna BBS</h3>
+						    <div class="meta mb-1"><span class="date">May.2018 – Jun.2018</span><span class="time">Fortuna</span><span class="comment">Hangzhou, China</span></div>
+						    <div class="intro">This was a BBS forum project which the fans of Digital Currency could communicate about the news/trend. In this project, I mainly focused on analysis and development of BBS management system which allowed administrator to manage and monitor the BBS formus. For this project, I used AntD components with ReactJS to develop front-end system and layers.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/security.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">CCE Network Security Checking</h3>
+						    <div class="meta mb-1"><span class="date">Oct.2017 – Dec.2017</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">This was a network security checking project for CCE which is a lightweight NMS. Based on the Network Security research which I had finished before, I led four-team to finish the network security checking/modification for CCE and passed the huawei security checking tools. Besides, I also helped other teams to check their system whether had security bugs.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/kpi.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Monitor and quickly recover by KPI</h3>
+						    <div class="meta mb-1"><span class="date">Nov.2016 – Aug.2017</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">This was a module of CCE which is a system for operators such as China Mobile and Vodafone and had two version, one is based on tradition IEMP platform and another is based on Microservice. By monitoring of KPI and management policy, broken VNF(virtual network function) and VM could be manipulated by itself such as rebooting, isolation, rebuilding and other methods to recover the virtual network. I developed the first version based on IEMP with my teammates. Then I also led a team to design the architecture based on Microservice Architecture and finish the development of project by Java, HTML, CSS and JavaScript. </div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/policy.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">POP</h3>
+						    <div class="meta mb-1"><span class="date">May.2016 – Oct.2016</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">This was a policy management platform which applied for China Mobile to manage policy of network elements such as phone message, network datas. In this project, I mainly focused on policy display, policy dashboard and policy modification. I used Eview components with HTML, CSS, JavaScript to develop the front-end website. This is the first time to use Eview which I researched on Large Management System.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/transformation.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">UI technology transformation</h3>
+						    <div class="meta mb-1"><span class="date">Mar.2016 – May.2016</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">Because original fronted technology was not adapted to development of project, department leaders decided to change another front-end technology for development. I was worked on researching the new technology to develop website and outputted the comparison between Eview and Nano. After that, I developed a components of CCE based on Eview for testing the new technology.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/signaling.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Signaling Tracking</h3>
+						    <div class="meta mb-1"><span class="date">Jun.2015 – Feb.2016</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">This was a error detection and display system by tracking signaling of Network Elements. It could display the translation path of signaling between network elements and provide the malfunction information to check and recover the network by Maintenance personnel. In this project, I mainly focused on the path display, loop-back submission and UI optimization.</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/mano.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Management and Orchestration (MANO)</h3>
+						    <div class="meta mb-1"><span class="date">Jan.2015 – May.2015</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">This was a new project about vitural network. It could delpoy the vitural network function(VNF) and vitural machine(VM) fastly based on the vitural platform. This project contained NFV-O module, VNFM module and VIM module. I mainly focused on front-end VNFM module which could creat/delete/extend the VNFs. I used the BME which is a developing tools to build and maintain this system</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+		    </div><!--//container-->
+	    </section><!--//promo-section-->
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+			<div class="row">
+				<div class="col-md-6" style="text-align: left; padding-left: 5rem;"><span style="font-size: 80%;">@Fan Fu</span></div>
+				<div class="col-md-6" style="text-align: right; padding-right: 5rem;"><span style="font-size: 80%;">hellofufan@gmail.com</span></div>
+			</div>
+			<!-- <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+	   
+	</footer>
+    
+    </div><!--//main-wrapper-->
+
+    
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script> -->
+
+    <!-- Custom JS -->
+    <script src="assets/js/blog.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+
+</body>
+</html> 
+
