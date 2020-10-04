@@ -5,7 +5,10 @@
     
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Expires" content="0" />
+	<meta http-equiv="cache-control" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog Template">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
@@ -34,7 +37,7 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/Fan_head.jpeg" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Fan Fu and I'm a software engineer/AI researcher. <br>My interest is Computer Vision, Natural Language Process, Vision and Language, Web Technology.<br></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Fan Fu and I'm a software engineer/AI researcher. <br>My interest is Vision and Language, Computer Vision, Natural Language Processing, Web Technology.<br></div><!--//bio-->
 					<div class="bio mb-3">
 						<span style="font-weight: bold;">Email:</span> hellofufan@gmail.com<br>
 						<span style="font-weight: bold;">Address:</span> Bow, London, UK<br>
@@ -164,9 +167,9 @@
 						<div class="card blog-post-card blog-uni">
 							<img class="card-img-top card_uni" src="assets/images/fortuna.png" alt="image">
 							<div class="card-body">
-								<h5 class="card-title">Fortuna Technologies Company | Hangzhou, China</h5>
+								<h5 class="card-title">Fortuna Company | Hangzhou, China</h5>
 								<div class="card-text"><span class="time">2018.04 ~ 2018.09</span></div>
-								<p class="card-text">I mainly took the position of Senior Web Developing Engineer in Fortuna. I leaded a team to do some research about web technology, compare them and use the ReactJS to build components library. Besides, I was in charge of the development of websites such as trading platform, a wallet of digital currency, Fortuna BBS, homepage of Fortuna. Some projects have published online. During the period, I have gained solid knowledge in frontend development, BlockChain and Trading System.</p>
+								<p class="card-text">As the senior web software engineer in Fortuna, I was in charge of development and designing about website and architecture. During this period, I developed 4 websites by ReactJS and NodeJS. Besides, in order to fast development, I proposed to build the component library. I summarized most of the common components like button which we would use in the future and developed more than 20 components in 2 weeks. Components library could improve the development efficiency by 50%.</p>
 								<!-- <p class="mb-0"><a class="more-link" href="blog-post.html">Read more →</a></p> -->
 								
 							</div>
@@ -181,7 +184,7 @@
 							<div class="card-body">
 								<h5 class="card-title">Huawei Technologies Co., Ltd. | Xi'an, China</h5>
 								<div class="card-text"><span class="time">2014.07 ~ 2018.04</span></div>
-								<p class="card-text">I mainly took the position of Senior Software Engineer in Huawei. I was in charge of development and maintenance in Huawei NMS (Network Management System). In this experience, I developed a lot of systems based on Microservice architecture, Network Security and NMS. I also wrote a lot of documents which were useful to our department. Finally, I started to lead a team in the monitor of VNF project and web security project. In Huawei company, I gained a lot of knowledge in security, NMS and VNF. Besides, I got a chance to learn how to do research and lead a team.</p>
+								<p class="card-text">As the senior software engineer in Huawei, I was in charge of system development, designing and research. During the period, I developed more than 10 modules and systems, which most of them have already published. Besides, in order to web technology updates, I finished the researches on the new web technology like Eview, Microservice and Network Security. After that, I led a team to develop the first module based on Microservice which has combined with NMS (Network Management System), and finish the network security checking of NMS. I wrote 5 documents about Microservice and Network Security which could standardize the development of system.</p>
 								<!-- <p class="mb-0"><a class="more-link" href="blog-post.html">Read more →</a></p> -->
 								
 							</div>
@@ -200,14 +203,15 @@
 				    <div class="media">
 					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/relation_ICG.png" alt="image">
 					    <div class="media-body">
-						    <h3 class="title mb-1">Image Caption Generation based on Relationship between Objects</h3>
-						    <div class="meta mb-1"><span class="date">Apr.2020 ~ May.2020 & Sep.2020 ~ Today</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
+						    <h3 class="title mb-1">Relationship-based Image Captioning</h3>
+						    <div class="meta mb-1"><span class="date">Apr.2020 ~ May.2020 & Aug.2020 ~ Today</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
 						    <div class="intro">
 								<ul>
-									<li>This is a research for my master thesis at City, University of London.</li>
-									<li>Exploring the image caption generation framework based on visual relationship.</li>
-									<li>Choosing the Object Detection as Encoder and adding the relation module to improve the performance.</li>
-									<li>Choosing the LSTM with attention as Decoder and researching how to combine the relationship features from Encoder.</li>
+									<li>This is a research project about Vision and Language for my master thesis.</li>
+									<li>Doing research on how to combine the Image Caption Generation with visual Relationship Detection.</li>
+									<li>Developing the models, one is Faster RCNN to extracting the proposal features, one is Language model with attention to generate the captions.</li>
+									<li>Adding the relation module into Faster RCNN to improve the performance.</li>
+									<li>Combining the Language model with the relationship features from relation module and exploring how to use the attention mechanism for relationship features.</li>
 									<!-- <li>This is a research for my master thesis at City, University of London.</li> -->
 								</ul>
 							</div>
@@ -222,12 +226,13 @@
 						    <div class="meta mb-1"><span class="date">Mar.2020 ~ May.2020</span><span class="time">City, University of London</span><span class="comment">London, UK</span></div>
 						    <div class="intro">
 								<ul>
-									<li>This is a study on Object Detection on Unmanned aerial vehicles(UAVs) Dataset.</li>
+									<li>This was a study on Object Detection on Unmanned Aerial Vehicles (UAVs) Dataset.</li>
 									<li>Compared between different UAVs dataset and chose AU-AIR dataset.</li>
 									<li>Analyzed the image features and researched traditional Object Detection Framework.</li>
-									<li>Developed the Faster-RCNN model which used on UAVs dataset.</li>
-									<li>Optimized the performance by RoI Align instead of RoI pooling in Faster-RCNN.</li>
-									<li>Adding the relation module into Faster-RCNN for improving accuracy.</li>
+									<li>Developed the Faster-RCNN model which fitted to UAVs dataset by Pytorch.</li>
+									<li>Optimized the performance by RoI Align instead of RoI Pooling in Faster-RCNN for improving mAP up 1.5%.</li>
+									<li>Compared and Analyzed the results of Faster-RCNN and FPN which provided by Torchvision.</li>
+									<li>Added the relation module into Faster-RCNN for improving mAP.</li>
 								</ul>
 							</div>
 					    </div><!--//media-body-->
@@ -242,30 +247,11 @@
 						    <div class="intro">
 								<ul>
 									<li>This was a task from Kaggle which used AI technology to classify the pneumonia.</li>
+									<li>Developed the Random Forest model and Convolutional Neural Network model by Python and Keras</li>
 									<li>Used Grey Histogram and Convolutional Neural Network to extract the image features.</li>
-									<li>Researched and compared many frameworks, finally chose Random Forest and Convolutional Neural Network.</li>
-									<li>Developed the Random Forest model and Convolutional Neural Network.</li>
-									<li>Analyzed the performance between two features from Grey Histogram and CNN on Random Forest model.</li>
+									<li>Analyzed the results with two feature maps from Grey Histogram and CNN on the Random Forest model.</li>
+									<li>Used data argumentation to balance the positive and negative data and improved the score up 2%..</li>
 									<li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li>
-								</ul>
-							</div>
-					    </div><!--//media-body-->
-				    </div><!--//media-->
-				</div><!--//item-->
-				<div class="item mb-5">
-				    <div class="media">
-					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/microservices.png" alt="image">
-					    <div class="media-body">
-						    <h3 class="title mb-1">Microservice Architecture</h3>
-						    <div class="meta mb-1"><span class="date">Nov.2017 – Mar.2018</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
-						    <div class="intro">
-								<ul>
-									<li>This is an architecture research of Microservice for technology transformation. </li>
-									<li>Led a five-person team to do the research of Microservice architecture.</li>
-									<li>Summarized the features of Microservice and developed methods following AWS.</li>
-									<li>Developed a demo of Network Unit KPI monitor projects.</li>
-									<li>Developed a framework of Microservice on current system. </li>
-									<!-- <li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li> -->
 								</ul>
 							</div>
 					    </div><!--//media-body-->
@@ -276,20 +262,40 @@
 					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/security.png" alt="image">
 					    <div class="media-body">
 						    <h3 class="title mb-1">Network Security</h3>
-						    <div class="meta mb-1"><span class="date">Jan.2017 – Apr.2018</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="meta mb-1"><span class="date">Aug.2017 – Sep.2018</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
 						    <div class="intro">
 								<ul>
-									<li>This is a network security research which let system passed the security checking of Huawei. </li>
+									<li>This was a network security research which let system passed the security checking of Huawei. </li>
 									<li>Researched some papers and blogs to learn how to detect the security breach.</li>
-									<li>Summarized the security developing rules and modification method based on network security.</li>
+									<li>Summarized the security developing rules and modification method for network security based on NMS which reduced the checking time for others systems.</li>
 									<li>Led a five-person team to modify the system based on the security developing rules.</li>
-									<li>Assist other teams to finish the network security checking. </li>
+									<li>Assisted other teams to finish the network security checking. </li>
 									<!-- <li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li> -->
 								</ul>
 							</div>
 					    </div><!--//media-body-->
 				    </div><!--//media-->
 			    </div><!--//item-->
+				<div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/projects/microservices.png" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1">Microservice Architecture</h3>
+						    <div class="meta mb-1"><span class="date">Feb.2017 – May.2017</span><span class="time">Huawei</span><span class="comment">Xi'an, China</span></div>
+						    <div class="intro">
+								<ul>
+									<li>This was an architecture research of Microservice for technology transformation. </li>
+									<li>Led a six-person team to do the research of Microservice architecture.</li>
+									<li>Summarized the features of Microservice and developed methods following AWS.</li>
+									<li>Developed a demo of Network Unit KPI monitor project.</li>
+									<li>Developed a framework of Microservice on current system. </li>
+									<!-- <li>Optimized and analyzed the hyper-parameters on two models with confusion matrix/ROC/AUC.</li> -->
+								</ul>
+							</div>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+				</div><!--//item-->
+				
 			</div>
 		</section>
 		<!-- Skills&Awards -->
